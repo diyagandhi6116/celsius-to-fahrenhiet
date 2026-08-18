@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    float celsius,mul;
+    printf("Enter celsius temperature:");
+    scanf("%f",&celsius);
+    mul=(9.0/5.0*celsius)+32;
+    printf("Fahrenhiet temperature =%f",mul);
+    return 0;
+}
